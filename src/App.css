@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: bounce 10s infinite;
+  height: 60px;
+}
+
+.App-header {
+  background-color: #f2be54;
+}
+
+@keyframes bounce {
+  0%, 12%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  6% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+  9% {
+    -webkit-transform: translateY(-9px);
+    transform: translateY(-9px);
+  }
+}
